@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.829);
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+   
+}
+h1{
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 20px;
+    margin-bottom: 3rem;
+    
+}
+#app-container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+#start{
+    margin: 4rem;
+}
+input{
+    width: 400px;
+    height: 40px;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    font-size: 22px;
+    
+}
+#btn{
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 25px;
+}
+#location{
+    margin: 1.5rem;
+    font-size: 3.5rem;
+}
+#temp{
+    text-align: center;
+    
+}
+#temp-icon{
+   
+   width: 300px;
+   height: 300px;
+    
+}
+#temp #temp-value{
+    margin-top: 1.5rem;
+    font-size: 6rem;
+    align-items: center;
+}
+ #temp #temp-unit{
+    font-size: 5rem;
+    align-items: center;
+}
+#climate{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+.date{
+    font-size: 2rem;
+}
+
+@media(max-width:480px){
+    input{
+        width: 300px;
+        margin: 20px;
+        
+        
+    }
+    #temp-icon{
+        width: 200px;
+        height: 200px;
+    }
+    
+    #btn{
+        margin-left: 6rem;
+    }
+    #temp #temp-value{
+        font-size: 5rem;
+    }
+    #temp #temp-unit{
+        font-size: 3rem;
+    }
+    #h1{
+        margin-bottom: 5rem;
+    }
+}

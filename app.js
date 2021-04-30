@@ -44,9 +44,10 @@ btn.addEventListener("click", () => {
             })
        })
 
-
+Function datedata(){
 let d=new Date();
 let dd=d.toDateString();
 displaydate.innerHTML=dd;
+}
 
 

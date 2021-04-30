@@ -8,8 +8,6 @@ const input=document.getElementById("cityname");
 let displaydate=document.getElementById("displaydate");
 let iconFile;
 btn.addEventListener("click", () => {
-    
-           
             const api=`http://api.openweathermap.org/data/2.5/weather?q=${input.value}&appid=a81ce048c844d6e1176f8da8824bf565`;
             fetch(api)
             .then((response) => {
@@ -47,7 +45,8 @@ btn.addEventListener("click", () => {
        })
 
 
-let d=new Date()
+let d=new Date();
 let dd=d.toDateString();
 displaydate.innerHTML=dd;
+
 
